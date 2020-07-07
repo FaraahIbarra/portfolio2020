@@ -1,0 +1,278 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+.intro {
+    /* background-color: red; */
+    color: white;
+    width: 100%;
+    height: 700px;
+    padding-top: 250px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro h1 {
+    line-height: 60px;
+    font-size: 50px;
+}
+
+.photoleftdiv {
+    background: url("images/portrait.png");
+    width: 47%;
+    position: absolute;
+    left: 10px;
+    height: 75%;
+    margin-left: 50px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.biorightdiv {
+    color: white;
+    width: 47%;
+    position: absolute;
+    right: 10px;
+    height: 75%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    padding-top: 75px;
+    padding-bottom: 15px;
+    padding-left: 75px;
+    padding-right: 75px;
+    font-size: 18px;
+    line-height: 30px;
+    overflow: hidden;
+    object-fit: contain;
+    text-align: center;
+    margin: 20px;
+}
+
+.img1, .img02, .skillsimg, .img3, .img4 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img1 {
+    background-image: url(images/img1.jpg);
+    min-height: 500px;
+    margin-top: 800px;
+}
+
+.img02 {
+    background-image: url(images/img02.jpg);
+    min-height: 500px;
+    margin-top: 800px;
+}
+
+.img3 {
+    background-image: url(images/img3.jpg);
+    min-height: 500px;
+}
+
+.section-skills {
+    background: black;
+    height: 600px;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    height: 25px;
+}
+
+.container {
+    width: 100%;
+    background-color: #383A47;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.html {
+    width: 90%;
+    background-color: #777D8D;
+    margin-bottom: 10px;
+}
+
+.css {
+    width: 80%;
+    background-color: #777D8D;
+    margin-bottom: 10px;
+}
+
+.node {
+    width: 70%;
+    background-color: #777D8D;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.js {
+    width: 65%;
+    background-color: #777D8D;
+    margin-bottom: 10px;
+}
+
+.react {
+    width: 60%;
+    background-color: #777D8D;
+    margin-bottom: 10px;
+}
+
+.mongo {
+    width: 55%;
+    background-color: #777D8D;
+    margin-bottom: 10px;
+}
+
+.sql {
+    width: 40%;
+    background-color: #777D8D;
+    margin-bottom: 10px;
+}
+
+.mywork {
+    background: white;
+    height: 800px;
+}
+
+.container-work {
+    padding-top: 50px;
+    background: white;
+}
+
+.contact {
+    height: 700px;
+}
+
+.contact-title {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    color: white;
+}
+
+.form {
+    margin-top: 30px;
+    transition: all 4s ease-in-out;
+    color: white;
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: white;
+}
+
+textarea.form-control {
+    color: white;
+}
+
+input.form-control {
+    color: white;
+}
+
+input {
+    height: 45px;
+    color: white;
+}
+
+form .submit {
+    background: white;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+form .submit:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.contact-title h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-title h4 {
+    margin-bottom: 30px;
+}
+
+.contact-div {
+    margin: auto;
+    width: 75%;
+}
+
+.border {
+    width: 75px;
+    height: 10px;
+    background: white;
+    margin: 40px auto;
+}
+
+.btn-outline-primary {
+    color: #859992;
+    margin-top: 60px;
+    border-color: #859992;
+    font-size: 20px;
+}
+
+.btn-outline-primary:hover {
+    background-color: #859992;
+    border-color: #859992;
+    color: white;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+    min-height: 80px;
+}
+
+.fa-github {
+    color: black;
+}
+
+* {
+    box-sizing: border-box
+}
+
+/* @media only screen and (min-width: 768px) {
+    .intro {
+        display: block;
+        width: 100%;
+        padding-top: 100px;
+    }
+    .photoleftdiv {
+        width: 100%;
+        margin: 0;
+        height: 60%;
+    }
+   
+  } */
