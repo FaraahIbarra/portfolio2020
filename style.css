@@ -259,11 +259,11 @@ form .submit:hover {
     color: black;
 }
 
-* {
+/* * {
     box-sizing: border-box
-}
+} */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .intro {
         display: block;
         width: 100%;
@@ -320,4 +320,4 @@ form .submit:hover {
         height: 200px;
         
     }
-}
+} */
